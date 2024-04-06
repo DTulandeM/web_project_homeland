@@ -7,7 +7,7 @@
   margin: 0 auto 92px;
   max-width: 1184px;
   width: 100%;
-  min-height: 720px;
+  min-height: 740px;
   background-image: url("../images/cover__background.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -61,7 +61,7 @@
   background-color: #2a2c2f;
   max-width: 1184px;
   width: 100%;
-  min-height: 720px;
+  min-height: 740px;
   max-height: 100%;
   display: flex;
   justify-content: center;
@@ -79,4 +79,34 @@
 .cover:hover .cover__button {
   cursor: pointer;
   background: #0063d2;
+}
+@media screen and (min-width: 545px) and (max-width: 1024px) {
+  .cover {
+    max-width: 768px;
+    margin: 0 auto 88px;
+    min-height: 746px;
+  }
+  .cover__overlay {
+    max-width: 768px;
+    min-height: 746px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 545px) {
+  .cover {
+    max-width: 321.26px;
+    margin: 0 auto 88px;
+    min-height: 254px;
+  }
+  .cover__overlay {
+    max-width: 321.26px;
+    min-height: 254px;
+  }
+  .cover__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 16px;
+  }
 }

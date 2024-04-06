@@ -12,6 +12,9 @@
   justify-content: center;
   position: relative;
 }
+
+/* resolución entre 320px y 544px  */
+
 @media screen and (min-width: 320px) and (max-width: 544px) {
   .header__logo {
     display: flex;
